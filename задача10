@@ -1,0 +1,16 @@
+<?php
+        //вывести строку HELLO 
+
+$var = 'HELLO';
+
+$arr = str_split($var);
+
+$zero = 0;
+
+$i = count($arr);
+
+while ($zero != $i ) {
+    
+    echo "$arr[$zero]\n";
+    $zero = $zero + 1;
+}
